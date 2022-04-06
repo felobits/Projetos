@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); 
+
+/* Reset */
+* {margin: 0; padding: 0; outline: none; border: none; box-sizing: border-box;}
+
+body {background-color: #ddd; background-image: url('../bg.jpg'); background-size: cover; font-family: 'Open Sans', sans-serif; font-size: 100%;}
+
+#container {width: 90%; height: auto; position: relative; display: block; margin: 5% 5%;}
+
+/* Cabeçalho */
+#cabecalho {width: 100%; height: auto; position: relative; background-color: #000; padding: 1.5em 0; margin: 0; border-top: 20px solid #fff;}
+#cabecalho .logo {font-size: 3.5em; font-weight: 800; color: #fff; text-align: center; letter-spacing: -3px;}
+
+/* Post de exemplo */
+#post {width: 65%; height: 100%; min-height: 100%; display: block; position: relative; background-color: #fff; box-shadow: 1px 1px 5px  rgba(0,0,0,0.1); padding: 2em 2em 1em; margin: 0px auto; border-radius: 10px;}
+#post .titulo {font-size: 1.9em; font-weight: 600; color: #222;}
+#post p {margin: 1em 0; width: 100%; position: relative; text-align: justify; font-size: 1.5em; color: #222; font-weight: 300; line-height: 1.8em;}
+
+
+/* Botão */
+#voltar_ao_topo {
+    display: none; /* Por padrão, não aparece */
+    position: fixed; /* Fixa a posição */
+    right: 30px; bottom: 30px; /* Alinha o botão no canto direito inferior */
+    cursor: pointer;
+    background-color: #fff;
+    color: #222;
+    font-size: 30px;
+    padding: 2px 8px 4px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px  rgba(0,0,0,0.1);
+    transition: 0.5s ease;}
+    
+#voltar_ao_topo:hover {
+    background-color: #444;
+    color: #fff;}
+
+/* Rodapé */
+#rodape {float: left; width: 100%; height: auto; position: relative; background-color: #000; padding: 2.2em 0;}
+#rodape .creditos {font-size: 1.2em; font-weight: 600; color: #fff; text-align: center;}
